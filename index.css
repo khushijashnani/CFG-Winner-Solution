@@ -1,0 +1,21 @@
+.link{
+    font-size:20px;
+}
+.list{
+    margin-right:5%;
+}
+img{
+    opacity: 90%;
+}
+.car{
+    height:100vh;
+    overflow: hidden;
+}
+.carousel-caption{
+    color: white;
+    position: absolute;
+    top:400px;
+    font-size: 100px;
+    text-shadow: 2px 2px 10px black;
+}
+

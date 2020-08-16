@@ -1,0 +1,47 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href='./node_modules/bootstrap/dist/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
+    <link rel="stylesheet" href='./home.css'>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="./header.png" width="120px" height="60px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+          <ul class="navbar-nav  list">
+            <li class="nav-item active">
+              <a class="nav-link link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <button id="logoff" class="btn btn-primary" onclick="logout()">Logout</button>
+            </li>
+          </ul>
+        </div>
+        <span class="ml auto"><span id="name"></span></span>
+      </nav>
+      <div id="mobilizers">
+          <h1>Mobilizers Under Me :</h1>
+           <div id="listmob">
+           
+           </div>
+      </div>
+      <div id="stats">
+        
+      </div>
+      
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/vanilla-tilt/dist/vanilla-tilt.js"></script>
+    <script src="./node_modules/aos/dist/aos.js"></script>
+    <script src="./node_modules/chart.js/dist/Chart.min.js"></script>
+    <script src="./home.js"></script>
+    
+</body>
+</html>

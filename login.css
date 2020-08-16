@@ -1,0 +1,23 @@
+#hello{
+    height:400px;
+    width: 400px;
+    background-color: aqua;
+}
+#mainform{
+    width: 100%;
+    padding:100px;
+}
+.link{
+    font-size:20px;
+}
+.list{
+    margin-right:5%;
+}
+.btn{
+    background-color: #0BB0B1;
+}
+#errors{
+    margin-top: 20px;
+    height: 100px;
+    font-size: 20px;
+}

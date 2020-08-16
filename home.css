@@ -1,0 +1,51 @@
+.link{
+    font-size:20px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.events{
+    background-color: teal;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding:10px;
+}
+#stats{
+   
+}
+#stats div div{
+    background-color: lightgray;
+    width:100%;
+    text-align: center;
+    padding:10px;
+    margin-bottom:10px;
+}
+#graph{
+    text-align: center;
+}
+#name{
+    font-size:20px;
+}
+#mobilizers{
+    margin-top: 200px;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 100px;
+} 
+h1{
+    width: 100%;
+   text-align: center;
+   background-color: #007BFF;
+   color: white;
+   padding: 20px;
+}
+.mobile{
+    background-color: lightgray;
+    border-radius: 5%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
